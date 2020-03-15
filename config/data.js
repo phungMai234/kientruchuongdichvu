@@ -1,0 +1,23 @@
+module.exports  = DATA = [
+    {
+        username:"mai",
+        identify:"17020875",
+        email:"abc@gmail.com",
+        classId:"CD",
+        birth:"23-04-1999"
+    },
+    {
+        username:"quan",
+        identify:"17020984",
+        email:"abc@gmail.com",
+        classId:"CD",
+        birth:"23-04-1999"
+    },
+    {
+        username:"nga",
+        identify:"17020000",
+        email:"abc@gmail.com",
+        classId:"CD",
+        birth:"23-04-1999"
+    }
+];

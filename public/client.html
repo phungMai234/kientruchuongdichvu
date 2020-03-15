@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sender</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.script.js"></script>
+    <style>
+        label{
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <label>Enter ID student: </label>
+    <input type="text" id="mssv"/>
+</div>
+<h1>Data send from server</h1>
+<div id="root" style="color: red">
+
+</div>
+<div>
+    <label>Name:</label>
+    <span id="username"></span>
+    <br>
+    <label>Id:</label>
+    <span id="identify"></span>
+    <br>
+    <label>Email:</label>
+    <span id="email"></span>
+    <br>
+    <label>Class:</label>
+    <span id="classId"></span>
+    <br>
+    <label>Date:</label>
+    <span id="birth"></span>
+</div>
+</body>
+</html>
